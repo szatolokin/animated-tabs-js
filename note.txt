@@ -29,14 +29,15 @@
       ]
       [swap active]
 
-создать thumb // dinamic thumb
+// one line dinamic thumb
+  создать thumb // dinamic thumb
 
-вычислить нач. состояние
-вычислить кон. состояние
+  вычислить нач. состояние
+  вычислить кон. состояние
 
-запустить анимацию
-  расчитать промежуточное состояние
+  запустить анимацию
+    расчитать промежуточное состояние
 
-конец анимации
-  attachThumb // static thumb
-  isAnimation = false
+  конец анимации
+    attachThumb // static thumb
+    isAnimation = false
