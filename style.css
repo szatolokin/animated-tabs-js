@@ -8,8 +8,6 @@
 
 body {
   /* ? */
-  padding-top: 100px;
-  /* ? */
   min-height: 300vh;
 
   font-family: sans-serif;
@@ -19,12 +17,15 @@ body {
 
 /* content */
 
+/* test */
 .container {
-  padding: 0 60px;
+  margin-top: 100px;
 }
 
 .container__inner {
-  /* ? */
+  margin: 0 auto;
+  max-width: 50%;
+
   border: 1px solid black;
 }
 
@@ -32,8 +33,10 @@ body {
 
 .block {
   /* [ max-width ] */
-  /* overflow hidden */
   overflow: hidden;
+
+  /* test */
+  padding: 10px;
 }
 
 .block__list {
@@ -53,11 +56,13 @@ body {
   margin-bottom: 10px;
   margin-right: 10px;
   /* height */
-  height: 20px;
+  height: 60px;
   /* white-space nowrap alternative */
   flex-shrink: 0;
 
-  /* ? */
+  /* test */
+  border: 1px solid black;
+  font-size: 50px;
   cursor: pointer;
 }
 .block__item--active {
@@ -67,7 +72,7 @@ body {
 
 /* relative list */
 .block__thumb {
-  height: 1px;
+  height: 10px;
 
   background-color: red;
 }
